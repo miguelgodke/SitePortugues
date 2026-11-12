@@ -1,12 +1,3 @@
-/* ============================================================
-   REPOSITÓRIO DO SITE  —  é aqui que você preenche tudo.
-
-   Imagens: coloque os arquivos na pasta  img/  e escreva o caminho,
-   por exemplo:  "img/maria.jpg"
-   Links: cole o link do Google Docs entre as aspas.
-   Deixou vazio ("")? O site mostra um espaço reservado.
-   ============================================================ */
-
 (function () {
   "use strict";
 
@@ -31,7 +22,7 @@
         foto: "./img/cauan.png",
         paginaCordel: "membro1_cordel.html",
         cordel:  { titulo: "Título do cordel", imagem: "" },
-        conto:   { titulo: "Título do conto",  imagem: "", link: "" },
+        conto:   { titulo: "Hibisco Vermelho",  imagem: "./img/hibisco_vermelho.png", link: "https://docs.google.com/document/d/1rWxJdt9hNB38eov_YwAzsXhkXctxFUuDS5XgelSjqOA/edit?tab=t.0" },
         resenha: { titulo: "Título da resenha", imagem: "", link: "" }
       },
       {
