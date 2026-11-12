@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apresentação | Biblioteca da Informação</title>
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="cabecalho">
+    <div class="cabecalho-interno">
+      <a class="marca" href="index.html">
+        <img src="img/logo.png" alt="Logo da Biblioteca da Informação">
+        <span>Biblioteca da Informação</span>
+      </a>
+      <nav aria-label="Menu principal">
+        <ul class="menu">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="cordel.html">Cordel</a></li>
+          <li><a href="contos.html">Contos</a></li>
+          <li><a href="resenha.html">Resenha</a></li>
+          <li><a href="apresentacao.html" aria-current="page">Apresentação</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+      <button id="botao-tema" class="botao-tema" type="button">Tema escuro</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="topo-pagina">
+      <div class="container">
+        <span class="etiqueta">Seção</span>
+        <h1>Apresentação</h1>
+        <p>Os vídeos em que o grupo apresenta o projeto e os trabalhos produzidos.</p>
+      </div>
+    </section>
+
+    <section class="secao">
+      <div class="container">
+        <span class="etiqueta">Introdução</span>
+        <h2>Sobre a apresentação</h2>
+        <div class="texto-corrido">
+          <p>Nesta seção você encontra os dois vídeos de apresentação do grupo. Neles, mostramos como o projeto foi pensado, como cada integrante produziu seus textos e o que aprendemos com os gêneros cordel, conto e resenha.</p>
+          <p>Assista aos vídeos abaixo e depois visite as outras seções para ler os trabalhos completos.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao alt">
+      <div class="container">
+        <span class="etiqueta">Vídeos</span>
+        <h2>Assista</h2>
+
+        <div class="pesquisa" style="margin-top:20px;">
+          <input type="search" id="campo-busca" placeholder="Pesquisar vídeo por título ou descrição" aria-label="Pesquisar vídeos">
+        </div>
+
+        <div class="grid-videos" id="grid-videos"></div>
+        <p class="sem-resultado" id="sem-resultado">Nenhum vídeo encontrado com essa pesquisa.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <div class="rodape-grid">
+        <div>
+          <h3>Biblioteca da Informação</h3>
+          <p>Repositório dos trabalhos de português do grupo.</p>
+        </div>
+        <div>
+          <h3>Integrantes</h3>
+          <ul id="rodape-membros"></ul>
+        </div>
+        <div>
+          <h3>Páginas</h3>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="cordel.html">Cordel</a></li>
+            <li><a href="contos.html">Contos</a></li>
+            <li><a href="resenha.html">Resenha</a></li>
+            <li><a href="apresentacao.html">Apresentação</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="rodape-fim">&copy; <span id="rodape-ano">2026</span> Biblioteca da Informação. Trabalho escolar de Língua Portuguesa.</p>
+    </div>
+  </footer>
+
+  <script src="js/dados.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

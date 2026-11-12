@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato | Biblioteca da Informação</title>
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="cabecalho">
+    <div class="cabecalho-interno">
+      <a class="marca" href="index.html">
+        <img src="img/logo.png" alt="Logo da Biblioteca da Informação">
+        <span>Biblioteca da Informação</span>
+      </a>
+      <nav aria-label="Menu principal">
+        <ul class="menu">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="cordel.html">Cordel</a></li>
+          <li><a href="contos.html">Contos</a></li>
+          <li><a href="resenha.html">Resenha</a></li>
+          <li><a href="apresentacao.html">Apresentação</a></li>
+          <li><a href="contato.html" aria-current="page">Contato</a></li>
+        </ul>
+      </nav>
+      <button id="botao-tema" class="botao-tema" type="button">Tema escuro</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="topo-pagina">
+      <div class="container">
+        <span class="etiqueta">Fale com a gente</span>
+        <h1>Contato</h1>
+        <p>Dúvidas, sugestões ou elogios sobre o projeto? Envie uma mensagem para o grupo.</p>
+      </div>
+    </section>
+
+    <section class="secao">
+      <div class="container">
+        <div class="contato-layout">
+          <form class="formulario" id="form-contato">
+            <div>
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" required>
+            </div>
+            <div>
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+              <label for="assunto">Assunto</label>
+              <select id="assunto" name="assunto">
+                <option>Dúvida</option>
+                <option>Sugestão</option>
+                <option>Elogio</option>
+                <option>Outro</option>
+              </select>
+            </div>
+            <div>
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" required></textarea>
+            </div>
+            <button class="botao" type="submit">Enviar mensagem</button>
+            <p class="formulario-status" id="form-status" aria-live="polite"></p>
+          </form>
+
+          <div class="info-lista">
+            <div class="info-item"><strong>Projeto</strong><span>Biblioteca da Informação</span></div>
+            <div class="info-item"><strong>Turma</strong><span data-grupo="turma">Turma</span></div>
+            <div class="info-item"><strong>Escola</strong><span data-grupo="escola">Escola</span></div>
+            <div class="info-item"><strong>Professor(a)</strong><span data-grupo="professor">Professor</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao alt">
+      <div class="container">
+        <span class="etiqueta">Galeria</span>
+        <h2>Imagens do grupo</h2>
+        <p style="color:var(--texto-suave)">Escolha uma categoria para filtrar as imagens.</p>
+        <div class="filtros-botoes" id="filtros-galeria"></div>
+        <div class="grid galeria" id="galeria"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <div class="rodape-grid">
+        <div>
+          <h3>Biblioteca da Informação</h3>
+          <p>Repositório dos trabalhos de português do grupo.</p>
+        </div>
+        <div>
+          <h3>Integrantes</h3>
+          <ul id="rodape-membros"></ul>
+        </div>
+        <div>
+          <h3>Páginas</h3>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="cordel.html">Cordel</a></li>
+            <li><a href="contos.html">Contos</a></li>
+            <li><a href="resenha.html">Resenha</a></li>
+            <li><a href="apresentacao.html">Apresentação</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="rodape-fim">&copy; <span id="rodape-ano">2026</span> Biblioteca da Informação. Trabalho escolar de Língua Portuguesa.</p>
+    </div>
+  </footer>
+
+  <script src="js/dados.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

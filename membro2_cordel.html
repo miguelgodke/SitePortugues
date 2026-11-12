@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cordel | Biblioteca da Informação</title>
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="cabecalho">
+    <div class="cabecalho-interno">
+      <a class="marca" href="index.html">
+        <img src="img/logo.png" alt="Logo da Biblioteca da Informação">
+        <span>Biblioteca da Informação</span>
+      </a>
+      <nav aria-label="Menu principal">
+        <ul class="menu">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="cordel.html" aria-current="page">Cordel</a></li>
+          <li><a href="contos.html">Contos</a></li>
+          <li><a href="resenha.html">Resenha</a></li>
+          <li><a href="apresentacao.html">Apresentação</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+      <button id="botao-tema" class="botao-tema" type="button">Tema escuro</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="secao">
+      <div class="container">
+        <a class="voltar" href="cordel.html">&larr; Voltar para os cordéis</a>
+        <span class="etiqueta" style="display:block;">Cordel</span>
+        <h1 id="cordel-titulo">Título do cordel</h1>
+        <p id="cordel-autor" style="color:var(--texto-suave)">Autor</p>
+
+        <div class="cordel-layout">
+          <!-- COLE O CORDEL AQUI: um verso por linha, deixe uma linha em branco entre as estrofes -->
+          <article class="cordel-texto">Cole aqui o texto do cordel.
+Escreva um verso por linha
+E deixe uma linha em branco
+Entre cada estrofe.
+
+Segunda estrofe do cordel,
+Continue do mesmo jeito.</article>
+
+          <aside class="cordel-imagem" id="imagem-cordel" aria-label="Ilustração do cordel"></aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <div class="rodape-grid">
+        <div>
+          <h3>Biblioteca da Informação</h3>
+          <p>Repositório dos trabalhos de português do grupo.</p>
+        </div>
+        <div>
+          <h3>Integrantes</h3>
+          <ul id="rodape-membros"></ul>
+        </div>
+        <div>
+          <h3>Páginas</h3>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="cordel.html">Cordel</a></li>
+            <li><a href="contos.html">Contos</a></li>
+            <li><a href="resenha.html">Resenha</a></li>
+            <li><a href="apresentacao.html">Apresentação</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="rodape-fim">&copy; <span id="rodape-ano">2026</span> Biblioteca da Informação. Trabalho escolar de Língua Portuguesa.</p>
+    </div>
+  </footer>
+
+  <script src="js/dados.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

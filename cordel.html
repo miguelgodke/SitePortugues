@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cordel | Biblioteca da Informação</title>
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="cabecalho">
+    <div class="cabecalho-interno">
+      <a class="marca" href="index.html">
+        <img src="img/logo.png" alt="Logo da Biblioteca da Informação">
+        <span>Biblioteca da Informação</span>
+      </a>
+      <nav aria-label="Menu principal">
+        <ul class="menu">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="cordel.html" aria-current="page">Cordel</a></li>
+          <li><a href="contos.html">Contos</a></li>
+          <li><a href="resenha.html">Resenha</a></li>
+          <li><a href="apresentacao.html">Apresentação</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+      <button id="botao-tema" class="botao-tema" type="button">Tema escuro</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="topo-pagina">
+      <div class="container">
+        <span class="etiqueta">Seção</span>
+        <h1>Cordel</h1>
+        <p>Poesia popular em versos rimados, escrita pelos integrantes do grupo.</p>
+      </div>
+    </section>
+
+    <section class="secao">
+      <div class="container">
+        <span class="etiqueta">Introdução</span>
+        <h2>O que é um cordel?</h2>
+        <div class="texto-corrido">
+          <p>A literatura de cordel é uma forma de poesia popular escrita em versos, com rimas e ritmo marcantes, muito ligada à tradição oral. Ela surgiu na Península Ibérica e chegou ao Brasil com os colonizadores, onde ganhou força e identidade própria, principalmente no Nordeste.</p>
+          <p>O nome vem da forma como os folhetos eram vendidos: pendurados em cordas ou barbantes, nas feiras e praças. As capas costumam ser ilustradas com xilogravura, uma técnica de gravura em madeira que se tornou marca registrada do gênero.</p>
+          <p>Os temas são variados: histórias de amor, humor, fatos do cotidiano, crítica social, lendas e aventuras. Muitos cordéis são escritos em estrofes de seis versos, as sextilhas, com rimas nos versos pares. Nomes como Leandro Gomes de Barros e Patativa do Assaré ajudaram a consolidar o gênero, reconhecido em 2018 como patrimônio cultural imaterial do Brasil.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao alt">
+      <div class="container">
+        <span class="etiqueta">Repositório</span>
+        <h2>Cordéis do grupo</h2>
+        <p style="color:var(--texto-suave)">Cada integrante tem uma página própria com o texto completo e um espaço para a ilustração.</p>
+
+        <div class="pesquisa" style="margin-top:20px;">
+          <input type="search" id="campo-busca" placeholder="Pesquisar por título ou autor" aria-label="Pesquisar cordéis">
+          <select id="filtro-membro" aria-label="Filtrar por integrante">
+            <option value="">Todos os integrantes</option>
+          </select>
+        </div>
+
+        <div class="grid" id="lista-trabalhos" data-tipo="cordel"></div>
+        <p class="sem-resultado" id="sem-resultado">Nenhum trabalho encontrado com esses filtros.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <div class="rodape-grid">
+        <div>
+          <h3>Biblioteca da Informação</h3>
+          <p>Repositório dos trabalhos de português do grupo.</p>
+        </div>
+        <div>
+          <h3>Integrantes</h3>
+          <ul id="rodape-membros"></ul>
+        </div>
+        <div>
+          <h3>Páginas</h3>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="cordel.html">Cordel</a></li>
+            <li><a href="contos.html">Contos</a></li>
+            <li><a href="resenha.html">Resenha</a></li>
+            <li><a href="apresentacao.html">Apresentação</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="rodape-fim">&copy; <span id="rodape-ano">2026</span> Biblioteca da Informação. Trabalho escolar de Língua Portuguesa.</p>
+    </div>
+  </footer>
+
+  <script src="js/dados.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

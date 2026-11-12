@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca da Informação</title>
+  <meta name="description" content="Repositório dos trabalhos de português do nosso grupo: cordéis, contos, resenhas e apresentação.">
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="cabecalho">
+    <div class="cabecalho-interno">
+      <a class="marca" href="index.html">
+        <img src="img/logo.png" alt="Logo da Biblioteca da Informação">
+        <span>Biblioteca da Informação</span>
+      </a>
+      <nav aria-label="Menu principal">
+        <ul class="menu">
+          <li><a href="index.html" aria-current="page">Início</a></li>
+          <li><a href="cordel.html">Cordel</a></li>
+          <li><a href="contos.html">Contos</a></li>
+          <li><a href="resenha.html">Resenha</a></li>
+          <li><a href="apresentacao.html">Apresentação</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+      <button id="botao-tema" class="botao-tema" type="button">Tema escuro</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <img src="img/logo.png" alt="Logo da Biblioteca da Informação">
+        <h1>Biblioteca da Informação</h1>
+        <p>Um repositório digital com os trabalhos de português do nosso grupo: cordéis, contos, resenhas e a apresentação final, reunidos em um só lugar.</p>
+        <a class="botao" href="#sobre">Conhecer o projeto</a>
+      </div>
+    </section>
+
+    <section class="secao" id="sobre">
+      <div class="container centro">
+        <span class="etiqueta">Sobre o projeto</span>
+        <h2>Contexto do trabalho</h2>
+        <div class="texto-corrido">
+          <p>A Biblioteca da Informação nasceu como trabalho da disciplina de Língua Portuguesa. A proposta é organizar, em um site, toda a produção escrita do grupo, funcionando como um acervo que pode ser consultado a qualquer momento.</p>
+          <p>Cada integrante produziu um cordel, um conto e uma resenha. Os cordéis estão publicados aqui mesmo, em páginas próprias. Os contos e as resenhas ficam em documentos do Google Docs, acessados por link. A apresentação do grupo reúne dois vídeos com a explicação do projeto.</p>
+        </div>
+        <div class="grid" style="margin-top:32px;">
+          <div class="info-item"><strong>Turma</strong><span data-grupo="turma">Turma</span></div>
+          <div class="info-item"><strong>Escola</strong><span data-grupo="escola">Escola</span></div>
+          <div class="info-item"><strong>Professor(a)</strong><span data-grupo="professor">Professor</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao alt" id="membros">
+      <div class="container centro">
+        <span class="etiqueta">Nosso grupo</span>
+        <h2>Os 6 membros</h2>
+        <p class="texto-corrido" style="color:var(--texto-suave)">As pessoas por trás do acervo.</p>
+        <div class="grid" id="grid-membros"></div>
+      </div>
+    </section>
+
+    <section class="secao" id="secoes">
+      <div class="container centro">
+        <span class="etiqueta">Acervo</span>
+        <h2>Explore o repositório</h2>
+        <div class="grid grid-4">
+          <article class="card">
+            <div class="card-imagem">Cordel</div>
+            <div class="card-corpo"><h3>Cordel</h3><p class="autor">Versos e rimas do grupo.</p></div>
+            <div class="card-rodape"><a class="botao" href="cordel.html">Ver seção</a></div>
+          </article>
+          <article class="card">
+            <div class="card-imagem">Contos</div>
+            <div class="card-corpo"><h3>Contos</h3><p class="autor">Narrativas curtas autorais.</p></div>
+            <div class="card-rodape"><a class="botao" href="contos.html">Ver seção</a></div>
+          </article>
+          <article class="card">
+            <div class="card-imagem">Resenha</div>
+            <div class="card-corpo"><h3>Resenha</h3><p class="autor">Análises e opiniões sobre obras.</p></div>
+            <div class="card-rodape"><a class="botao" href="resenha.html">Ver seção</a></div>
+          </article>
+          <article class="card">
+            <div class="card-imagem">Apresentação</div>
+            <div class="card-corpo"><h3>Apresentação</h3><p class="autor">Os vídeos do grupo.</p></div>
+            <div class="card-rodape"><a class="botao" href="apresentacao.html">Ver seção</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <div class="rodape-grid">
+        <div>
+          <h3>Biblioteca da Informação</h3>
+          <p>Repositório dos trabalhos de português do grupo.</p>
+        </div>
+        <div>
+          <h3>Integrantes</h3>
+          <ul id="rodape-membros"></ul>
+        </div>
+        <div>
+          <h3>Páginas</h3>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="cordel.html">Cordel</a></li>
+            <li><a href="contos.html">Contos</a></li>
+            <li><a href="resenha.html">Resenha</a></li>
+            <li><a href="apresentacao.html">Apresentação</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="rodape-fim">&copy; <span id="rodape-ano">2026</span> Biblioteca da Informação. Trabalho escolar de Língua Portuguesa.</p>
+    </div>
+  </footer>
+
+  <script src="js/dados.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
