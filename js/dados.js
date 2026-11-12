@@ -15,10 +15,10 @@
     /* ---------- Informações do grupo ---------- */
     grupo: {
       nome: "Biblioteca da Informação",
-      turma: "Turma / Série aqui",
-      escola: "Nome da escola aqui",
-      professor: "Nome do professor(a) aqui",
-      email: "",           // e-mail do grupo (usado no formulário de contato)
+      turma: "148",
+      escola: "IFSP - Cubatão",
+      professor: "Nelson Junior & Fabiana vilaço",
+      email: "cauanvictorcavalcanti@gmail.com",  
       ano: "2026"
     },
 
@@ -27,48 +27,48 @@
        renomeie o arquivo do cordel e atualize "paginaCordel".  */
     membros: [
       {
-        nome: "Membro 1",
-        foto: "",
+        nome: "Cauan Victor",
+        foto: "./img/cauan.png",
         paginaCordel: "membro1_cordel.html",
         cordel:  { titulo: "Título do cordel", imagem: "" },
         conto:   { titulo: "Título do conto",  imagem: "", link: "" },
         resenha: { titulo: "Título da resenha", imagem: "", link: "" }
       },
       {
-        nome: "Membro 2",
-        foto: "",
+        nome: "Enzo Ricci",
+        foto: "./img/ricci.png",
         paginaCordel: "membro2_cordel.html",
         cordel:  { titulo: "Título do cordel", imagem: "" },
         conto:   { titulo: "Título do conto",  imagem: "", link: "" },
         resenha: { titulo: "Título da resenha", imagem: "", link: "" }
       },
       {
-        nome: "Membro 3",
-        foto: "",
+        nome: "Enzo Novais",
+        foto: "./img/novais.png",
         paginaCordel: "membro3_cordel.html",
         cordel:  { titulo: "Título do cordel", imagem: "" },
         conto:   { titulo: "Título do conto",  imagem: "", link: "" },
         resenha: { titulo: "Título da resenha", imagem: "", link: "" }
       },
       {
-        nome: "Membro 4",
-        foto: "",
+        nome: "Miguel Godke",
+        foto: "./img/miguel.png",
         paginaCordel: "membro4_cordel.html",
         cordel:  { titulo: "Título do cordel", imagem: "" },
         conto:   { titulo: "Título do conto",  imagem: "", link: "" },
         resenha: { titulo: "Título da resenha", imagem: "", link: "" }
       },
       {
-        nome: "Membro 5",
-        foto: "",
+        nome: "Ruan Ribeiro",
+        foto: "./img/ribeiro.png",
         paginaCordel: "membro5_cordel.html",
         cordel:  { titulo: "Título do cordel", imagem: "" },
         conto:   { titulo: "Título do conto",  imagem: "", link: "" },
         resenha: { titulo: "Título da resenha", imagem: "", link: "" }
       },
       {
-        nome: "Membro 6",
-        foto: "",
+        nome: "Lucas antônio",
+        foto: "./img/lucas.png",
         paginaCordel: "membro6_cordel.html",
         cordel:  { titulo: "Título do cordel", imagem: "" },
         conto:   { titulo: "Título do conto",  imagem: "", link: "" },
@@ -76,30 +76,18 @@
       }
     ],
 
-    /* ---------- Vídeos da apresentação ----------
-       link: cole o link normal do YouTube (watch?v=... ou youtu.be/...) */
+    /* ---------- Vídeos da apresentação ---------- */
     videos: [
       {
-        titulo: "Vídeo 1",
-        link: "",
-        descricao: "Descrição do vídeo 1 aqui."
+        titulo: "Cultura Sob Censura: uma reflexão da Cultura no periodo da Ditadura Militar",
+        link: "https://www.youtube.com/watch?v=sXm7iSGr_Eo",
+        descricao: "Um debate acerca da Cultura durante o tempo de 1964 até 1985 quando ocorreu a ditadura Militar no Brasil"
       },
       {
-        titulo: "Vídeo 2",
-        link: "",
-        descricao: "Descrição do vídeo 2 aqui."
+        titulo: "Quantos livros você lê por dia?",
+        link: "https://youtu.be/Gxpd4j7glek?si=RXO3OyGk1x0-QSw-",
+        descricao: "grupo Lucas, Ruan, Luiz"
       }
     ],
-
-    /* ---------- Galeria da página de contato ----------
-       categoria: use o mesmo texto para agrupar (aparece como filtro). */
-    galeria: [
-      { src: "", legenda: "Legenda da foto 1", categoria: "Grupo" },
-      { src: "", legenda: "Legenda da foto 2", categoria: "Grupo" },
-      { src: "", legenda: "Legenda da foto 3", categoria: "Bastidores" },
-      { src: "", legenda: "Legenda da foto 4", categoria: "Bastidores" },
-      { src: "", legenda: "Legenda da foto 5", categoria: "Trabalhos" },
-      { src: "", legenda: "Legenda da foto 6", categoria: "Trabalhos" }
-    ]
   };
 })();
