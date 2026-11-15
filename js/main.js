@@ -112,7 +112,7 @@
         botao.target = "_blank";
         botao.rel = "noopener";
         rodape.appendChild(botao);
-        rodape.appendChild(criar("p", "card-aviso", "Abre o Google Docs em outra aba."));
+        rodape.appendChild(criar("p", "card-aviso", "Abre outra sessão fora do site principal"));
       } else {
         botao.textContent = "Link em breve";
         botao.className = "botao desativado";
@@ -235,28 +235,6 @@
         });
       });
       botoesFiltro.appendChild(b);
-    });
-  }
-
-  /* ---------- Contato: formulário ---------- */
-  var form = document.getElementById("form-contato");
-  if (form && dados) {
-    form.addEventListener("submit", function (e) {
-      e.preventDefault();
-      var status = document.getElementById("form-status");
-      var nome = form.nome.value.trim();
-      var assunto = form.assunto.value;
-      var mensagem = form.mensagem.value.trim();
-
-      if (!dados.grupo.email) {
-        status.textContent = "Mensagem pronta! Defina o e-mail do grupo em js/dados.js para enviar.";
-        return;
-      }
-      var corpo = "Nome: " + nome + "\nE-mail: " + form.email.value.trim() + "\n\n" + mensagem;
-      location.href = "mailto:" + dados.grupo.email +
-        "?subject=" + encodeURIComponent(assunto) +
-        "&body=" + encodeURIComponent(corpo);
-      status.textContent = "Abrindo seu aplicativo de e-mail...";
     });
   }
 })();

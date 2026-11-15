@@ -9,7 +9,6 @@
       turma: "148",
       escola: "IFSP - Cubatão",
       professor: "Nelson Junior & Fabiana vilaço",
-      email: "cauanvictorcavalcanti@gmail.com",  
       ano: "2026"
     },
 
@@ -20,39 +19,39 @@
       {
         nome: "Cauan Victor",
         foto: "./img/cauan.png",
-        paginaCordel: "membro1_cordel.html",
-        cordel:  { titulo: "Título do cordel", imagem: "" },
-        conto:   { titulo: "Hibisco Vermelho",  imagem: "./img/hibisco_vermelho.png", link: "https://docs.google.com/document/d/1rWxJdt9hNB38eov_YwAzsXhkXctxFUuDS5XgelSjqOA/edit?tab=t.0" },
-        resenha: { titulo: "Título da resenha", imagem: "", link: "" }
+        paginaCordel: "cauan_cordel.html",
+        cordel:  { titulo: "Liberdade Extinta", imagem: "./img/mauritania.jpg" },
+        conto:   { titulo: "Hibisco Vermelho",  imagem: "./img/hibisco_vermelho.png", link: "./pdf/cauanconto.pdf" },
+        resenha: { titulo: "Maus", imagem: "./img/maus.webp", link: "./pdf/cauanresenha.pdf" }
       },
       {
         nome: "Enzo Ricci",
         foto: "./img/ricci.png",
-        paginaCordel: "membro2_cordel.html",
-        cordel:  { titulo: "Título do cordel", imagem: "" },
+        paginaCordel: "ricci_cordel.html",
+        cordel:  { titulo: "Direito de Viver", imagem: "./img/direitodeviver.png" },
         conto:   { titulo: "Título do conto",  imagem: "", link: "" },
         resenha: { titulo: "Título da resenha", imagem: "", link: "" }
       },
       {
         nome: "Enzo Novais",
         foto: "./img/novais.png",
-        paginaCordel: "membro3_cordel.html",
+        paginaCordel: "novais_cordel.html",
         cordel:  { titulo: "Título do cordel", imagem: "" },
-        conto:   { titulo: "Título do conto",  imagem: "", link: "" },
+        conto:   { titulo: "Hibisco Silencioso",  imagem: "./img/hibisco_silencioso.png", link: "./pdf/novaisconto.pdf" },
         resenha: { titulo: "Título da resenha", imagem: "", link: "" }
       },
       {
         nome: "Miguel Godke",
         foto: "./img/miguel.png",
-        paginaCordel: "membro4_cordel.html",
-        cordel:  { titulo: "Título do cordel", imagem: "" },
+        paginaCordel: "godke_cordel.html",
+        cordel:  { titulo: "Hipocrisia do próprio", imagem: "./img/DireitosHumanosSem_Fronteiras.png" },
         conto:   { titulo: "Título do conto",  imagem: "", link: "" },
-        resenha: { titulo: "Título da resenha", imagem: "", link: "" }
+        resenha: { titulo: "Percy Jackson e o ladrão de raios", imagem: "./img/percy_jackson.jpg", link: "./pdf/godkeresenha.pdf" }
       },
       {
         nome: "Ruan Ribeiro",
         foto: "./img/ribeiro.png",
-        paginaCordel: "membro5_cordel.html",
+        paginaCordel: "ruan_cordel.html",
         cordel:  { titulo: "Título do cordel", imagem: "" },
         conto:   { titulo: "Título do conto",  imagem: "", link: "" },
         resenha: { titulo: "Título da resenha", imagem: "", link: "" }
@@ -60,7 +59,7 @@
       {
         nome: "Lucas antônio",
         foto: "./img/lucas.png",
-        paginaCordel: "membro6_cordel.html",
+        paginaCordel: "lucas_cordel.html",
         cordel:  { titulo: "Título do cordel", imagem: "" },
         conto:   { titulo: "Título do conto",  imagem: "", link: "" },
         resenha: { titulo: "Título da resenha", imagem: "", link: "" }
