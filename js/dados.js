@@ -36,16 +36,16 @@
         nome: "Enzo Novais",
         foto: "./img/novais.png",
         paginaCordel: "novais_cordel.html",
-        cordel:  { titulo: "Título do cordel", imagem: "" },
+        cordel:  { titulo: "Escravidão", imagem: "./img/escravidao.png" },
         conto:   { titulo: "Hibisco Silencioso",  imagem: "./img/hibisco_silencioso.png", link: "./pdf/novaisconto.pdf" },
-        resenha: { titulo: "Título da resenha", imagem: "", link: "" }
+        resenha: { titulo: "Título da resenha", imagem: "./img/pintoradehenna.jpg", link: "./pdf/novaisresenha.pdf" }
       },
       {
         nome: "Miguel Godke",
         foto: "./img/miguel.png",
         paginaCordel: "godke_cordel.html",
         cordel:  { titulo: "Hipocrisia do próprio", imagem: "./img/DireitosHumanosSem_Fronteiras.png" },
-        conto:   { titulo: "Título do conto",  imagem: "", link: "" },
+        conto:   { titulo: "Conto Deletado",  imagem: "", link: "" },
         resenha: { titulo: "Percy Jackson e o ladrão de raios", imagem: "./img/percy_jackson.jpg", link: "./pdf/godkeresenha.pdf" }
       },
       {
@@ -54,15 +54,15 @@
         paginaCordel: "ruan_cordel.html",
         cordel:  { titulo: "Título do cordel", imagem: "" },
         conto:   { titulo: "Título do conto",  imagem: "", link: "" },
-        resenha: { titulo: "Título da resenha", imagem: "", link: "" }
+        resenha: { titulo: "Título da resenha", imagem: "./img/banana.jpg", link: "./pdf/ruanresenha.pdf" }
       },
       {
         nome: "Lucas antônio",
         foto: "./img/lucas.png",
         paginaCordel: "lucas_cordel.html",
         cordel:  { titulo: "Título do cordel", imagem: "" },
-        conto:   { titulo: "Título do conto",  imagem: "", link: "" },
-        resenha: { titulo: "Título da resenha", imagem: "", link: "" }
+        conto:   { titulo: "o Silêncio mudou",  imagem: "./img/hibisco.png", link: "./pdf/lucasconto.pdf" },
+        resenha: { titulo: "Iracema", imagem: "./img/iracema.jpg", link: "./pdf/lucasresenha.pdf" }
       }
     ],
 
