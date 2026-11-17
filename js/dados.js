@@ -61,7 +61,7 @@
         foto: "./img/lucas.png",
         paginaCordel: "lucas_cordel.html",
         cordel:  { titulo: "Direitos Humanos", imagem: "./img/direitos_humanos.jpg" },
-        conto:   { titulo: "o Silêncio mudou",  imagem: "./img/hibisco.png", link: "./pdf/Lucasconto.pdf" },
+        conto:   { titulo: "o Silêncio mudou",  imagem: "./img/hibisco.png", link: "./pdf/lucasconto.pdf" },
         resenha: { titulo: "Iracema", imagem: "./img/iracema.jpg", link: "./pdf/lucasresenha.pdf" }
       }
     ],
