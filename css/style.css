@@ -1,6 +1,18 @@
 
-
+/* =================================================== 
+STYLE.CSS — [B.I] — [Rep. de PT] 
+Grupo: [
+        Cauan Victor Andrade Cavalcanti
+        Miguel Godke Silva
+        Enzo Oliveira Ricci
+        Ruan Ribeiro Prospero
+        Enzo Novais Silva
+        Lucas Antonio Souza Carneiro
+] 
+Data: [17/11/2026] 
+=================================================== */ 
 :root {
+  /* variavel global */
   --laranja: #c2662d;
   --laranja-claro: #e4a574;
   --laranja-suave: #f6e7d8;
@@ -27,11 +39,10 @@
   --borda: #3b2f27;
   --sombra: 0 6px 20px rgba(0, 0, 0, 0.35);
 }
-
+/* basico global */
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 html { scroll-behavior: smooth; }
-
 body {
   font-family: var(--fonte-texto);
   background: var(--fundo);

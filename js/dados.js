@@ -76,7 +76,7 @@
       {
         titulo: "Quantos livros você lê por dia?",
         link: "https://youtu.be/Gxpd4j7glek?si=RXO3OyGk1x0-QSw-",
-        descricao: "grupo Lucas, Ruan, Luiz"
+        descricao: "Entrevista com Estudantes de Letras no IFSP, falando de literatura, fan-fics e histórias relacionadas"
       }
     ],
   };
