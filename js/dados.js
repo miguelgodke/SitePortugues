@@ -18,51 +18,51 @@
     membros: [
       {
         nome: "Cauan Victor",
-        foto: "./img/cauan.png",
+        foto: "./img/perfis/cauan.png",
         paginaCordel: "cauan_cordel.html",
-        cordel:  { titulo: "Liberdade Extinta", imagem: "./img/mauritania.jpg" },
-        conto:   { titulo: "Hibisco Vermelho",  imagem: "./img/hibisco_vermelho.png", link: "./pdf/cauanconto.pdf" },
-        resenha: { titulo: "Maus", imagem: "./img/maus.webp", link: "./pdf/cauanresenha.pdf" }
+        cordel:  { titulo: "Liberdade Extinta", imagem: "./img/cordel_img/mauritania.jpg" },
+        conto:   { titulo: "Hibisco Vermelho",  imagem: "./img/conto_img/hibisco_vermelho.png", link: "./pdf/cauanconto.pdf" },
+        resenha: { titulo: "Maus", imagem: "./img/resenha_img/maus.webp", link: "./pdf/cauanresenha.pdf" }
       },
       {
         nome: "Enzo Ricci",
-        foto: "./img/ricci.png",
+        foto: "./img/perfis/ricci.png",
         paginaCordel: "ricci_cordel.html",
-        cordel:  { titulo: "Direito de Viver", imagem: "./img/direitodeviver.png" },
-        conto:   { titulo: "Hibisco Verde",  imagem: "./img/ricciconto.png", link: "./pdf/ricciconto.pdf" },
-        resenha: { titulo: "Coração de Tinta", imagem: "./img/tinta.jpg", link: "./pdf/ricciresenha.pdf" }
+        cordel:  { titulo: "Direito de Viver", imagem: "./img/cordel_img/direitodeviver.png" },
+        conto:   { titulo: "Jardim do silêncio",  imagem: "./img/conto_img/ricciconto.png", link: "./pdf/ricciconto.pdf" },
+        resenha: { titulo: "Coração de Tinta", imagem: "./img/resenha_img/tinta.jpg", link: "./pdf/ricciresenha.pdf" }
       },
       {
         nome: "Enzo Novais",
-        foto: "./img/novais.png",
+        foto: "./img/perfis/novais.png",
         paginaCordel: "novais_cordel.html",
-        cordel:  { titulo: "Escravidão", imagem: "./img/escravidao.png" },
-        conto:   { titulo: "Hibisco Silencioso",  imagem: "./img/hibisco_silencioso.png", link: "./pdf/novaisconto.pdf" },
-        resenha: { titulo: "Pintora de Henna", imagem: "./img/pintoradehenna.jpg", link: "./pdf/novaisresenha.pdf" }
+        cordel:  { titulo: "Escravidão", imagem: "./img//cordel_img/escravidao.png" },
+        conto:   { titulo: "Hibisco Silencioso",  imagem: "./img/conto_img/entredois.png", link: "./pdf/novaisconto.pdf" },
+        resenha: { titulo: "Pintora de Henna", imagem: "./img/resenha_img/pintoradehenna.jpg", link: "./pdf/novaisresenha.pdf" }
       },
       {
         nome: "Miguel Godke",
-        foto: "./img/miguel.png",
+        foto: "./img/perfis/miguel.png",
         paginaCordel: "godke_cordel.html",
-        cordel:  { titulo: "Hipocrisia do próprio", imagem: "./img/DireitosHumanosSem_Fronteiras.png" },
-        conto:   { titulo: "o Ultimo Domingo de Jaja",  imagem: "./img/miguelconto.jpeg", link: "./pdf/miguelconto.pdf" },
-        resenha: { titulo: "Percy Jackson e o ladrão de raios", imagem: "./img/percy_jackson.jpg", link: "./pdf/godkeresenha.pdf" }
+        cordel:  { titulo: "Hipocrisia do próprio", imagem: "./img//cordel_img/DireitosHumanosSem_Fronteiras.png" },
+        conto:   { titulo: "o Ultimo Domingo de Jaja",  imagem: "./img/conto_img/miguelconto.jpeg", link: "./pdf/miguelconto.pdf" },
+        resenha: { titulo: "Percy Jackson e o ladrão de raios", imagem: "./img/resenha_img/percy_jackson.jpg", link: "./pdf/godkeresenha.pdf" }
       },
       {
         nome: "Ruan Ribeiro",
-        foto: "./img/ribeiro.png",
+        foto: "./img/perfis/ribeiro.png",
         paginaCordel: "ruan_cordel.html",
-        cordel:  { titulo: "Nóis é diferente, mas num é pior", imagem: "./img/numediferente.png" },
-        conto:   { titulo: "a Fuga do abismo",  imagem: "./img/ruanconto.png", link: "./pdf/ruanconto.pdf" },
-        resenha: { titulo: "Diário de um Banana", imagem: "./img/banana.jpg", link: "./pdf/ruanresenha.pdf" }
+        cordel:  { titulo: "Nóis é diferente, mas num é pior", imagem: "./img//cordel_img/numediferente.png" },
+        conto:   { titulo: "a Fuga do abismo",  imagem: "./img/conto_img/ruanconto.png", link: "./pdf/ruanconto.pdf" },
+        resenha: { titulo: "Diário de um Banana", imagem: "./img/resenha_img/banana.jpg", link: "./pdf/ruanresenha.pdf" }
       },
       {
         nome: "Lucas antônio",
-        foto: "./img/lucas.png",
+        foto: "./img/perfis/lucas.png",
         paginaCordel: "lucas_cordel.html",
-        cordel:  { titulo: "Direitos Humanos", imagem: "./img/direitos_humanos.jpg" },
-        conto:   { titulo: "o Silêncio mudou",  imagem: "./img/hibisco.png", link: "./pdf/lucasconto.pdf" },
-        resenha: { titulo: "Iracema", imagem: "./img/iracema.jpg", link: "./pdf/Lucasresenha.pdf" }
+        cordel:  { titulo: "Direitos Humanos", imagem: "./img//cordel_img/direitos_humanos.jpg" },
+        conto:   { titulo: "o Silêncio mudou",  imagem: "./img/conto_img/hibisco.png", link: "./pdf/lucasconto.pdf" },
+        resenha: { titulo: "Iracema", imagem: "./img/resenha_img/iracema.jpg", link: "./pdf/Lucasresenha.pdf" }
       }
     ],
 
