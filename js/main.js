@@ -1,7 +1,7 @@
-/* Biblioteca da Informação — scripts simples */
+/* scripts do site */
 (function () {
   "use strict";
-
+ /* se liga no dados */
   var dados = window.BIBLIOTECA;
 
   /* ---------- Tema escuro ---------- */
@@ -25,13 +25,15 @@
   }
 
   /* ---------- Funções auxiliares ---------- */
+
+   /* criação de tag com com conteudo */
   function criar(tag, classe, texto) {
     var el = document.createElement(tag);
     if (classe) el.className = classe;
     if (texto) el.textContent = texto;
     return el;
   }
-
+ /* Div */
   function caixaImagem(src, alt) {
     var caixa = criar("div", "card-imagem");
     if (src) {
@@ -44,7 +46,7 @@
     }
     return caixa;
   }
-
+ /* pra sessão apresentação */
   function linkYoutube(url) {
     if (!url) return "";
     var m = url.match(/(?:youtu\.be\/|v=|embed\/)([\w-]{11})/);
@@ -54,6 +56,7 @@
   /* ---------- Rodapé: lista de membros ---------- */
   var rodapeMembros = document.getElementById("rodape-membros");
   if (rodapeMembros && dados) {
+     /* ao indentificar o rodape e os dados do dados.js ele vai percorrer os nomes de todos os membros */
     dados.membros.forEach(function (m) {
       rodapeMembros.appendChild(criar("li", "", m.nome));
     });
@@ -64,6 +67,7 @@
   /* ---------- Home: membros ---------- */
   var gridMembros = document.getElementById("grid-membros");
   if (gridMembros && dados) {
+     /* percorre e cria uma div com foto e nome em baixo de cada membro */
     dados.membros.forEach(function (m) {
       var card = criar("article", "card membro");
       card.appendChild(caixaImagem(m.foto, m.nome));
@@ -73,7 +77,7 @@
       gridMembros.appendChild(card);
     });
   }
-
+ /* pega todas as informações do tipo grupo dos dados */
   var infoGrupo = document.querySelectorAll("[data-grupo]");
   if (dados) {
     infoGrupo.forEach(function (el) {
@@ -114,6 +118,7 @@
         rodape.appendChild(botao);
         rodape.appendChild(criar("p", "card-aviso", "Abre outra sessão fora do site principal"));
       } else {
+         /* se nao botou nada, nao acessa */
         botao.textContent = "Link em breve";
         botao.className = "botao desativado";
       }
@@ -208,6 +213,7 @@
 
   /* ---------- Contato: galeria com filtros ---------- */
   var galeria = document.getElementById("galeria");
+  // Seleciona o container onde os botões de filtro por categoria serão inseridos
   var botoesFiltro = document.getElementById("filtros-galeria");
   if (galeria && dados) {
     var categorias = ["Todas"];
@@ -226,14 +232,17 @@
       b.type = "button";
       b.addEventListener("click", function () {
         botoesFiltro.querySelectorAll(".filtro-btn").forEach(function (x) {
+          // Remove a classe ativo de todos os botões de filtro
           x.classList.remove("ativo");
         });
+        // Adiciona a classe ativo apenas no botão que acabou de ser clicado
         b.classList.add("ativo");
         galeria.querySelectorAll("figure").forEach(function (fig) {
           var ok = cat === "Todas" || fig.getAttribute("data-categoria") === cat;
           fig.style.display = ok ? "" : "none";
         });
       });
+      // Adiciona o botão criado dentro do container de filtros na tela
       botoesFiltro.appendChild(b);
     });
   }

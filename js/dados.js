@@ -11,17 +11,13 @@
       professor: "Nelson Junior & Fabiana vilaço",
       ano: "2026"
     },
-
-    /* ---------- Os 6 membros ----------
-       Para trocar o nome de um membro, altere "nome" e, se quiser,
-       renomeie o arquivo do cordel e atualize "paginaCordel".  */
     membros: [
       {
         nome: "Cauan Victor",
         foto: "./img/perfis/cauan.png",
         paginaCordel: "cauan_cordel.html",
         cordel:  { titulo: "Liberdade Extinta", imagem: "./img/cordel_img/mauritania.jpg" },
-        conto:   { titulo: "Hibisco Vermelho",  imagem: "./img/conto_img/hibisco_vermelho.png", link: "./pdf/cauanconto.pdf" },
+        conto:   { titulo: "Hibisco Vermelho",  imagem: "./img/conto_img/cauanconto.jpeg", link: "./pdf/cauanconto.pdf" },
         resenha: { titulo: "Maus", imagem: "./img/resenha_img/maus.webp", link: "./pdf/cauanresenha.pdf" }
       },
       {
@@ -52,7 +48,7 @@
         nome: "Ruan Ribeiro",
         foto: "./img/perfis/ribeiro.png",
         paginaCordel: "ruan_cordel.html",
-        cordel:  { titulo: "Nóis é diferente, mas num é pior", imagem: "./img//cordel_img/numediferente.png" },
+        cordel:  { titulo: "Nóis é diferente, mas num é pior", imagem: "./img//cordel_img/ruancordel.jpeg" },
         conto:   { titulo: "a Fuga do abismo",  imagem: "./img/conto_img/ruanconto.png", link: "./pdf/ruanconto.pdf" },
         resenha: { titulo: "Diário de um Banana", imagem: "./img/resenha_img/banana.jpg", link: "./pdf/ruanresenha.pdf" }
       },
@@ -60,7 +56,7 @@
         nome: "Lucas antônio",
         foto: "./img/perfis/lucas.png",
         paginaCordel: "lucas_cordel.html",
-        cordel:  { titulo: "Direitos Humanos", imagem: "./img//cordel_img/direitos_humanos.jpg" },
+        cordel:  { titulo: "Direitos Humanos", imagem: "./img//cordel_img/lucascordel.jpeg" },
         conto:   { titulo: "o Silêncio mudou",  imagem: "./img/conto_img/hibisco.png", link: "./pdf/lucasconto.pdf" },
         resenha: { titulo: "Iracema", imagem: "./img/resenha_img/iracema.jpg", link: "./pdf/Lucasresenha.pdf" }
       }
